@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DepartmentProfileActivity"
+        android:layout_margin="10dp">
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:id="@+id/tv_department_id"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textAlignment="center" />
+    </RelativeLayout>
+</FrameLayout>
